@@ -67,7 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
+    <Content Include="Methods.aspx" />
+    <Content Include="Contact us.aspx" />
+    <Content Include="About us.aspx" />
+    <Content Include="Testimonical.aspx" />
+    <Content Include="Article.aspx" />
+    <Content Include="Main Page.aspx" />
+    <Content Include="RTT.aspx" />
+    <Content Include="LifeCoaching.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +86,62 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Methods.aspx.cs">
+      <DependentUpon>Methods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Methods.aspx.designer.cs">
+      <DependentUpon>Methods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact us.aspx.cs">
+      <DependentUpon>Contact us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact us.aspx.designer.cs">
+      <DependentUpon>Contact us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About us.aspx.cs">
+      <DependentUpon>About us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About us.aspx.designer.cs">
+      <DependentUpon>About us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Testimonical.aspx.cs">
+      <DependentUpon>Testimonical.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Testimonical.aspx.designer.cs">
+      <DependentUpon>Testimonical.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Article.aspx.cs">
+      <DependentUpon>Article.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Article.aspx.designer.cs">
+      <DependentUpon>Article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main Page.aspx.cs">
+      <DependentUpon>Main Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main Page.aspx.designer.cs">
+      <DependentUpon>Main Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RTT.aspx.cs">
+      <DependentUpon>RTT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RTT.aspx.designer.cs">
+      <DependentUpon>RTT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LifeCoaching.aspx.cs">
+      <DependentUpon>LifeCoaching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LifeCoaching.aspx.designer.cs">
+      <DependentUpon>LifeCoaching.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

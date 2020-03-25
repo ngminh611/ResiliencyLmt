@@ -4,16 +4,32 @@
 
 <html>
 <head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-</head>
-<body>
+   
+    
+   <link rel="stylesheet" href="StyleSheet1.css" />
+    
+    </head>
+    <body>
     <form id="form1" runat="server">
         <div>
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="80px" Width="80px" />
+           <div class="dropdown">
+  <button class="dropbtn">Methods</button>
+  <div class="dropdown-content">
+    <a href="RTT.aspx">RTT</a>
+    <a href="LifeCoaching.aspx">Life-coaching</a>
+    
+  </div>
+  <button> Article</button>
+    <button> Method</button>
+               <button>Contact us </button>
+               <button>About us</button>
+               <button> Testimonical </button>
+</div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+       
     </form>
 </body>
 </html>
