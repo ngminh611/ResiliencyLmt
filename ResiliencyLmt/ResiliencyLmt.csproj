@@ -67,16 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Logo.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="Methods.aspx" />
     <Content Include="Contact us.aspx" />
     <Content Include="About us.aspx" />
     <Content Include="Testimonical.aspx" />
-    <Content Include="Article.aspx" />
     <Content Include="Main Page.aspx" />
     <Content Include="RTT.aspx" />
     <Content Include="LifeCoaching.aspx" />
+    <Content Include="Articles.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,13 +116,6 @@
     <Compile Include="Testimonical.aspx.designer.cs">
       <DependentUpon>Testimonical.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Article.aspx.cs">
-      <DependentUpon>Article.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Article.aspx.designer.cs">
-      <DependentUpon>Article.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Main Page.aspx.cs">
       <DependentUpon>Main Page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -143,6 +137,13 @@
     <Compile Include="LifeCoaching.aspx.designer.cs">
       <DependentUpon>LifeCoaching.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Articles.aspx.cs">
+      <DependentUpon>Articles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articles.aspx.designer.cs">
+      <DependentUpon>Articles.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -154,6 +155,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -13,5 +13,10 @@ namespace ResiliencyLmt
         {
 
         }
+
+        protected void Unnamed1_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
     }
 }

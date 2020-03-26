@@ -10,26 +10,45 @@
     
     </head>
     <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ImageButton ID="ImageButton1" runat="server" Height="80px" Width="80px" />
-           <div class="dropdown">
-  <button class="dropbtn">Methods</button>
-  <div class="dropdown-content">
-    <a href="RTT.aspx">RTT</a>
-    <a href="LifeCoaching.aspx">Life-coaching</a>
+   
+        
     
-  </div>
-  <button> Article</button>
-    <button> Method</button>
-               <button>Contact us </button>
-               <button>About us</button>
-               <button> Testimonical </button>
-</div>
+        <form id="form1" runat="server">
+   <a href="Main Page.aspx"> <asp:ImageButton  runat="server" Width="80px" Height="80px" class="logo" ImageUrl="~/Images/Logo.jpg" OnClick="Unnamed1_Click"/></a>
+            <ul>
+                <li></li>
+                <li></li>
+  <li class="dropdown">
+    <a href="Methods.aspx" class="dropbtn">Methods</a>
+    <div class="dropdown-content">
+      <a href="RTT.aspx">RTT</a>
+      <a href="LifeCoaching.aspx">Life-Coaching</a>
+    </div>
+  </li>
+  <li><a href="About Us.aspx">About Us</a></li>
+  <li>
+  <a  href="Articles.aspx">Articles</a>
+  </li>
+  
+                <li><a href="Contact us.aspx">Contact Us</a></li>
+                <li> <a href="Testimonical.aspx">Tétimonical</a></li>
+</ul>
+            
+         
+        <div> 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-       
-    </form>
+            <footer>
+                <div class="footer">
+ 
+                    <a href="Methods.aspx">Methods</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="About us.aspx">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="Testimonical.aspx">Testimonical</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Articles.aspx">Articles</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="Contact us.aspx">Contact us</a>
+                </div>
+       </footer>
+  </form> 
 </body>
 </html>
