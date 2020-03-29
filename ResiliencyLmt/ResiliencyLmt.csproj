@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\LifeCoaching.jpg" />
     <Content Include="Images\Logo.jpg" />
+    <Content Include="Images\RTT.png" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="Methods.aspx" />

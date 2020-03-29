@@ -2,9 +2,15 @@
 
 
 }
+.book{
+    text-align:center;
+    color:aquamarine;
+    font-family:Garamond;
+}
 h1{
     background-color:ActiveCaption;
     color:aqua;
+    text-align:center;
 }
 .footer{
     text-align:right;
@@ -75,4 +81,30 @@ li {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.instagram{
+    text-align:center;
+
+}
+table{
+    text-align:center;
+
 }

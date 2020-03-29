@@ -7,7 +7,7 @@
    
     
    <link rel="stylesheet" href="StyleSheet1.css" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
    
@@ -31,7 +31,7 @@
   </li>
   
                 <li><a href="Contact us.aspx">Contact Us</a></li>
-                <li> <a href="Testimonical.aspx">Tétimonical</a></li>
+                <li> <a href="Testimonical.aspx">Testimonical</a></li>
 </ul>
             
          
@@ -40,6 +40,9 @@
             </asp:ContentPlaceHolder>
         </div>
             <footer>
+                <div class="instagram"> <a href="Instagram.com" class="fa fa-instagram"></a> <br />
+                    Instagram
+                </div>
                 <div class="footer">
  
                     <a href="Methods.aspx">Methods</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
