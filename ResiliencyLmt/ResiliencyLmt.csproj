@@ -70,17 +70,18 @@
     <Content Include="Images\LifeCoaching.jpg" />
     <Content Include="Images\Logo.jpg" />
     <Content Include="Images\RTT.png" />
+    <Content Include="Images\Susan Hoskin - Profile Pic.jpg" />
     <Content Include="Images\tree.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="Methods.aspx" />
     <Content Include="Contact us.aspx" />
-    <Content Include="About us.aspx" />
     <Content Include="Testimonical.aspx" />
     <Content Include="Main Page.aspx" />
     <Content Include="RTT.aspx" />
     <Content Include="LifeCoaching.aspx" />
     <Content Include="Articles.aspx" />
+    <Content Include="About Us.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,13 +105,6 @@
     </Compile>
     <Compile Include="Contact us.aspx.designer.cs">
       <DependentUpon>Contact us.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="About us.aspx.cs">
-      <DependentUpon>About us.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About us.aspx.designer.cs">
-      <DependentUpon>About us.aspx</DependentUpon>
     </Compile>
     <Compile Include="Testimonical.aspx.cs">
       <DependentUpon>Testimonical.aspx</DependentUpon>
@@ -146,6 +140,13 @@
     </Compile>
     <Compile Include="Articles.aspx.designer.cs">
       <DependentUpon>Articles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About Us.aspx.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About Us.aspx.designer.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
