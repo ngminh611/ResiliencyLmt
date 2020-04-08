@@ -1,0 +1,110 @@
+﻿body {
+
+
+}
+.book{
+    text-align:center;
+    color:aquamarine;
+    font-family:Garamond;
+}
+h1{
+    background-color:ActiveCaption;
+    color:aqua;
+    text-align:center;
+}
+.footer{
+    text-align:right;
+}
+.logo {
+    height: 80px;
+    width:80px;
+   display:block;
+   margin-right:auto;
+   margin-left:auto;
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d1f0b1;
+}
+
+li {
+   
+    float:left;
+    text-align:center;
+    height: 47px;
+    width: 152px;
+}
+
+    li a, .dropbtn {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: #59365b;
+            color: black;
+            font-weight: bold;
+        }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6d676e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #223127;
+            color: white;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.instagram{
+    text-align:center;
+
+}
+table{
+    text-align:center;
+
+}
